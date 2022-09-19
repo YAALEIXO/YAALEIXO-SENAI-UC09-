@@ -272,7 +272,7 @@ body{background-color: rgb(66,66,66);}
     width: 100%;
  
     align-items:center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin: 0 auto;
       
    
@@ -295,8 +295,8 @@ body{background-color: rgb(66,66,66);}
 .email{ display: flex; padding: 10px;}
 .fone{ display: flex; padding: 10px; }
 
-
-.local0{ width: 400px;}
+.midias{ width: 200px;}
+.local10{ width: 400px;}
 .local{ display: flex ;padding: 10px;}
 
 .redesoc{ 
