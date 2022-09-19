@@ -354,13 +354,7 @@ body{background-color: rgb(66,66,66);}
 
 
 /* ------S3--------------- */
-    .s3{
-       
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-       
-    }
+   
 
 .rodape{  
     display: grid;
@@ -371,36 +365,17 @@ body{background-color: rgb(66,66,66);}
 }
 
 .logope{ display: flex;
-    padding-left: 18%;
+    padding-left: 10%;
    
     }
 
-.informacoes{ 
-   padding-top: 10%;
-    padding-left: 10%;
-   
-   }
+.informacoes{ display: block; width: 100%; padding-top: 10%;  }
 
-.midias{ display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 10%;
-    margin-left: 35%;
-   }
+.midias{ display: block; width: 90%; padding-top: 20%; padding-left: 5%; }
+.midias > p{ text-align: center;}
 
+.redesoc{display: flex}
 
-
-.redesoc{ 
-    display: grid;
-    width: 50%;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-
-
-.local0{
-
-    padding-top: 5%;
-    padding-left: 10%
-}
+.local10{display: block; width: 100%;}
 
 }
