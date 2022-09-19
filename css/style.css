@@ -299,11 +299,12 @@ body{background-color: rgb(66,66,66);}
 .local0{ width: 400px;}
 .local{ display: flex ;padding: 10px;}
 
-.redesec{ 
+.redesoc{ 
     display: grid;
+    width: 80%;
     height: 100%;
     align-items: center;
-    grid-template-columns: repeat(4, fr);
+    grid-template-columns: repeat(4, 1fr);
    
     
     
@@ -354,8 +355,52 @@ body{background-color: rgb(66,66,66);}
 
 /* ------S3--------------- */
     .s3{
-        display: none;
+       
+        justify-content: center;
+        align-content: center;
+        align-items: center;
        
     }
+
+.rodape{  
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+ 
+   
+}
+
+.logope{ display: flex;
+    padding-left: 18%;
+   
+    }
+
+.informacoes{ 
+   padding-top: 10%;
+    padding-left: 10%;
+   
+   }
+
+.midias{ display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 10%;
+    margin-left: 35%;
+   }
+
+
+
+.redesoc{ 
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+.local0{
+
+    padding-top: 5%;
+    padding-left: 10%
+}
 
 }
