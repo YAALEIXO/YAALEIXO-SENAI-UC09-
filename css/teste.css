@@ -328,116 +328,11 @@ margin-left: 5%;
 /*                   ---------                      */
 
 
-
-
-@media screen and (max-width:668px),
-(min-width:700) {
-
-
+@media screen and (max-width:414px) {
 
     #fundotopo {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-
-    .textol {
-        display: none;
-    }
-
-    .container1 {
-        width: 100%;
-    }
-
-    .header {
-        justify-content: center;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .pesquisa {
-        display: none;
-    }
-
-    .Ppg1 {
-        
-        width: 25%;
-        top: 1%;
-        height: 60%;
-        font-size: 29px;
-        right: 10%;
-    }
-
-    .Ppg2 {
-        width: 35%;
-
-        font-size: 12px;
-        right: 5%;
-        top: 200px;
-
-
-
-
-    }
-
-
-    .btn1 {
-        font-size: 20px;
-        width: 250px;
-        right: 5%;
-        padding: 10px;
-        top:250px
-        
-
-    }
-
-
-    .fps1 { max-width: 100%; margin-left: 30%;}
-
-
-
-
-    .grid2{ 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:375px) {
-
-    #fundotopo {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .textol {
@@ -534,5 +429,3 @@ justify-content: center;
 
 
 .midias{ max-height: 100px; margin-top: 20px; margin-bottom: 20px;}
-
-}
