@@ -124,40 +124,64 @@ main {
 
 
 
-
+.carrossel{ align-content: flex-end;}
 
 .Ppg1 {
-    position: absolute;
-    position: absolute;
-    width: 40%;
-    height: 60%;
-    top: 20px;
-    right: 5%;
+   display: flex;
+   justify-content: flex-end;
     color: #55FBBF;
-    font-size: 90px;
-    text-align: center;
+    
+
 }
+
+
+.Ppg1 >p {font-size: 50px;
+    margin-right: 5%;
+    width: 310px;
+    text-align: center;}
 
 .Ppg2 {
-    position: absolute;
+    /* position: absolute; */
 
-    right: 5%;
+   display: flex;
+   justify-content: flex-end;
     color: #55FBBF;
-    font-size: 20px;
-    text-align: center;
-    top: 410px;
+    
+   
+   
 }
+
+.Ppg2 >p {font-size: 12px;
+    margin-right: 5%;
+    width: 310px;
+    text-align: center;}
+
+
 
 
 .btn1 {
-    position: absolute;
-    width: 300px;
+        /* position: absolute; */
+    
+       display: flex;
+       justify-content: flex-end;
+        color: #55FBBF;
+
+
+        
+}
+
+.btn1 >a {
+   
+    width: 310px;
     background: #A9DB69;
     color: black;
     padding: 25px;
+    font-size: 20px;
+    margin-right: 5%;
     text-align: center;
-    top: 480px;
-    right: 11%;
+   
+  
+    
 
 
 }
@@ -310,31 +334,78 @@ margin-left: 5%;
 
 
 
+.banner {
+       
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bnn1{ background-image: url(../img/banner.jpg);
+    height: 350px;
+
+}
+
+
+.bnn2{ background-image: url(../img/bnn2.jpg);
+    height: 350px;
+
+}
+
+.bnn3{ background-image: url(../img/bnn3.jpg);
+    height: 350px;
+
+}
+
+
+.posicionamento-banner{ align-items: flex-end;}
+
+
+@media (max-width:897px){ 
+
+.input{ display: none;}
+
+#fundotopo {
+
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr 100px);
+        gap:0px
+
+    }
+   
+    
+    .textol {
+        display: none;
+    }
+   
 
 
 
 
+}
 
 
+@media (max-width:600px){ }
 
 
+@media (max-width:415px){ 
 
-
-
-
-
-
-
-/*                   ---------                      */
-
-
-@media screen and (max-width:413px) {
 
     #fundotopo {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
+
+
+
+    .grid2{ display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
     .textol {
         display: none;
     }
@@ -407,15 +478,7 @@ margin-left: 5%;
 
 }
 
-.grid2{ 
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
 
-
-
-
-
-}
 
 
 .rodape{ 
@@ -429,3 +492,6 @@ justify-content: center;
 
 
 .midias{ max-height: 100px; margin-top: 20px; margin-bottom: 20px;}
+
+
+
