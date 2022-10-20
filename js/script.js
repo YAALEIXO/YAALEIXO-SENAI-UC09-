@@ -63,4 +63,22 @@ function cadastrarNewsletter() {
     console.log(email)
 }
 
+
+function logar() {
+    let emaillogin = document.getElementById("emaillog").value
+
+if (emaillogin==0) {
+    alert('digite um email')
+}
+else{
+
+    alert(emaillogin)
+    console.log(emaillogin)}
+}
+
+
+
+
+
+
 // DOM - Document Object Model
