@@ -57,7 +57,7 @@ body {
 /* ------------------ */
 
 .pesquisa {
-    max-width: 700px;
+    max-width: 550px;
 }
 
 .input {
@@ -276,21 +276,18 @@ margin-left: 5%;
 
 }
 
-
+footer{ background-color: black; max-width: 100vw; margin: 0 auto; margin-top: 0;}
 .rodape{
-    max-width: 1440px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100%;
- 
+    max-width: 100vw;
+    display: flex;
     align-items:center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 0 auto;
     background-color: black;
    
 }
 
-.logope{ width: 250px;}
+.logope{ width: 100px}
 
 .informacoes{ 
     
@@ -304,13 +301,13 @@ margin-left: 5%;
 
 .icon2{ width: 25px; padding-right: 10px;}
 
-.email{ display: flex; padding: 10px;}
-.fone{ display: flex; padding: 10px; }
+.email{ display: flex; padding: 10px; font-size: 12px;}
+.fone{ display: flex; padding: 10px; font-size: 12px;}
 
 .midias{ width: 200px;}
 
-.local10{ width: 400px;}
-.local{ display: flex ;padding: 10px;}
+.local10{ width: 400px;font-size: 12px;}
+.local{ display: flex ;padding: 10px;font-size: 12px;}
 
 .redesoc{ 
     display: grid;
@@ -480,22 +477,14 @@ margin-left: 5%;
         .fps1 { max-width: 100%; margin-left: 15%;}
 
 
+        
+           footer{ display: flex;} 
+        
+
+
 }
 
 
-
-
-.rodape{ 
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-
-}
-
-.icon2{ width: 45px;}
 
 
 .midias{ max-height: 100px; margin-top: 20px; margin-bottom: 20px;}
-
-
-

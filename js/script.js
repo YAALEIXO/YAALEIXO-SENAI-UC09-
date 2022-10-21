@@ -66,14 +66,23 @@ function cadastrarNewsletter() {
 
 function logar() {
     let emaillogin = document.getElementById("emaillog").value
+    let senha = document.getElementById("senha").value
 
-if (emaillogin==0) {
-    alert('digite um email')
+if (emaillogin!=0 && senha !=0) {
+    alert('Bem vindo!')
+    window.location.href ="index.html"
+    
 }
+
+
+    
+
 else{
 
-    alert(emaillogin)
+    alert('Digite email e senha',emaillogin)
     console.log(emaillogin)}
+   
+    
 }
 
 
